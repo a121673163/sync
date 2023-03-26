@@ -24,4 +24,4 @@ jobs:
       
     - name: 执行同步镜像
       run: |
-        ./image-syncer --proc=20 --config=config.json --retries=2 --namespace=hcc_image
+        ./image-syncer --proc=20 --config=config.json --retries=2 --namespace=hcc_image --arch=beta --arch=alpha
