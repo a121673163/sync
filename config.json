@@ -6,7 +6,7 @@
         }
     },
     "images": {
-          "k8s.gcr.io/pause": "registry.cn-hangzhou.aliyuncs.com/hcc_image/pause"
+          "docker.io/calico/node": "registry.cn-hangzhou.aliyuncs.com/hcc_image/calico-node"
 
     }
 }
