@@ -1,0 +1,11 @@
+{
+    "auth": {
+        "registry.cn-hangzhou.aliyuncs.com": {
+            "username": "a121673163",
+            "password": "HUB_PASSWORD"
+        }
+    },
+    "images": {
+"registry.hub.docker.com/calico/kube-controllers": "registry.cn-hangzhou.aliyuncs.com/hcc_images/kube-controllers",
+    }
+}
