@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 01 * * *'
+    - cron: '0 01 * * 0'
   
 jobs:
   image-sync:
