@@ -5,6 +5,6 @@
             "password": "HUB_PASSWORD"
         },
     "images": {
-        "calico/cni": "registry.cn-hangzhou.aliyuncs.com/hcc_image/cni"
+        "k8s.gcr.io/pause": "registry.cn-hangzhou.aliyuncs.com/hcc_image/pause"
     }
 }
