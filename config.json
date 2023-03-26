@@ -1,10 +1,10 @@
 {
     "auth": {
-         "registry.baidubce.com": {
-            "username": "da9e38f0b1ec4446ad81b1778b733387",
+         "registry.cn-hangzhou.aliyuncs.com": {
+            "username": "a121673163",
             "password": "HUB_PASSWORD"
         },
     "images": {
-        "calico/cni": "registry.baidubce.com/hcc/cni"
+        "calico/cni": "registry.cn-hangzhou.aliyuncs.com/hcc_image/cni"
     }
 }
