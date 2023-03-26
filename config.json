@@ -7,13 +7,11 @@
         "registry.hub.docker.com": {
             "username": "a121673163",
             "password": "HUB_PASSWORD"
-        }
-    },
+        },
          "registry.baidubce.com": {
             "username": "a121673163",
             "password": "BAIDU_HUB_PASSWORD"
-        }
-    },
+        },
     "images": {
         "calico/cni": "registry.cn-hangzhou.aliyuncs.com/hcc_image/cni"
     }
