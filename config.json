@@ -3,6 +3,10 @@
         "registry.cn-hangzhou.aliyuncs.com": {
             "username": "a121673163",
             "password": "HUB_PASSWORD"
+        },
+        "registry.hub.docker.com": {
+            "username": "a121673163",
+            "password": "HUB_PASSWORD"
         }
     },
     "images": {
