@@ -10,6 +10,6 @@
         }
     },
     "images": {
-        "k8s.gcr.io/metrics-server/metrics-server": "registry.cn-hangzhou.aliyuncs.com/hcc_image/metrics-server"
+        "calico/cni": "registry.cn-hangzhou.aliyuncs.com/hcc_image/cni"
     }
 }
