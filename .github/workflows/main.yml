@@ -7,7 +7,7 @@ on:
   
 jobs:
   image-sync:
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
@@ -15,7 +15,7 @@ jobs:
       
     - name: 镜像同步配置处理
       run: |
-        sed -i 's/HUB_PASSWORD/${{ secrets.HUB_PASSWORD }}/g' config.json
+        sed -i 's/BAIDU_HUB_PASSWORD/${{ secrets.BAIDU_HUB_PASSWORD }}/g' config.json
         
     - name: 下载image-sync工具包
       run: |
@@ -24,4 +24,4 @@ jobs:
       
     - name: 执行同步镜像
       run: |
-        ./image-syncer --proc=5 --config=config.json --retries=2 --namespace=hcc_image
+        ./image-syncer --proc=10 --config=config.json --retries=2 
