@@ -6,7 +6,20 @@
         }
     },
     "images": {
-          "docker.io/calico/node": "registry.cn-hangzhou.aliyuncs.com/hcc_image/calico-node"
+          "k8s.gcr.io/prometheus-adapter/prometheus-adapter": "registry.cn-hangzhou.aliyuncs.com/hcc_image/prometheus-adapter",
+          "registry.k8s.io/ingress-nginx/kube-webhook-certgen": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-webhook-certgen",
+          "quay.io/coreos/kube-rbac-proxy": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-rbac-proxy",
+          "k8s.gcr.io/ingress-nginx/controller": "registry.cn-hangzhou.aliyuncs.com/hcc_image/ingress-nginx-controller",
+          "gcr.io/kaniko-project/executor:debug,latest": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kaniko-executor",
+          "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-state-metrics",
+          "k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner": "registry.cn-hangzhou.aliyuncs.com/hcc_image/nfs-subdir-external-provisioner",
+          "k8s.gcr.io/prometheus-adapter/prometheus-adapter": "registry.cn-hangzhou.aliyuncs.com/hcc_image/prometheus-adapter",
+          "k8s.gcr.io/kube-apiserver": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-apiserver",
+          "k8s.gcr.io/kube-controller-manager": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-controller-manager",
+          "k8s.gcr.io/kube-scheduler": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-scheduler",
+          "k8s.gcr.io/kube-proxy": "registry.cn-hangzhou.aliyuncs.com/hcc_image/kube-proxy",
+          "k8s.gcr.io/etcd": "registry.cn-hangzhou.aliyuncs.com/hcc_image/etcd",
+          "k8s.gcr.io/pause": "registry.cn-hangzhou.aliyuncs.com/hcc_image/pause"
 
     }
 }
