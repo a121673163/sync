@@ -6,7 +6,7 @@
         }
     },
     "images": {
-        "registry.k8s.io/ingress-nginx/controller": "a121673163/ingress-controller",
+        "a121673163/ingress-nginx-controller": "a121673163/ingress-controller",
         "registry.k8s.io/ingress-nginx/controller-chroot": "a121673163/ingress-controller-chroot",
         "registry.k8s.io/ingress-nginx/kube-webhook-certgen": "a121673163/ingress-kube-webhook-certgen"
         
