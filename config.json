@@ -6,7 +6,7 @@
         }
     },
     "images": {
-          ""registry.hub.docker.com/calico/kube-controllers": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/calico-controllers"
+          "registry.hub.docker.com/calico/kube-controllers": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/calico-controllers"
         
           
     }
