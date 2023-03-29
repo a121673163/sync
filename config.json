@@ -6,9 +6,9 @@
         }
     },
     "images": {
-          "k8s.gcr.io/ingress-nginx/controller": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-nginx-controller",
-          "k8s.gcr.io/ingress-nginx/kube-webhook-certgen": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-nginx-kube-webhook-certgen",
-          "k8s.gcr.io/ingress-nginx/controller-chroot": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-nginx-controller-chroot"
+        "registry.k8s.io/ingress-nginx/controller": "a121673163/ingress-controller",
+        "registry.k8s.io/ingress-nginx/controller-chroot": "a121673163/ingress-controller-chroot",
+        "registry.k8s.io/ingress-nginx/kube-webhook-certgen": "a121673163/ingress-kube-webhook-certgen"
         
          
     }
