@@ -6,7 +6,7 @@
         }
     },
     "images": {
-         "k8s.gcr.io/metrics-server/metrics-server": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-server",
+          "k8s.gcr.io/metrics-server/metrics-server": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-server",
           "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/kube-state-metrics",
           "registry.hub.docker.com/kubernetesui/dashboard": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/dashboard",
           "registry.hub.docker.com/kubernetesui/metrics-scraper": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-scraper",
